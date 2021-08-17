@@ -1,4 +1,4 @@
-FROM runmymind/docker-android-sdk:alpine-standalone
+FROM paeffgen/docker-android-sdk:alpine-standalone
 
 RUN apk update && apk upgrade && \
     apk add gradle npm && \
